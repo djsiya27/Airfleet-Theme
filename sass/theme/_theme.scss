@@ -289,7 +289,7 @@ body {
       background: $hero-color;
       position: relative;
       height: 858px!important;
-      width:320px;
+      width:100%;
     }
 
     .header__text {
@@ -303,6 +303,7 @@ body {
       line-height: 61px;
       text-align: center;
       top:50px;
+      left: 15%;
     }
     img.illustration-desktop {
       display: none;
@@ -321,18 +322,19 @@ font-weight: 300;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
+left:15%;
 }
 
 .btn.btn-contact {
   margin-top: 70px;
-  left:25%;
+  left:30%;
   width: 161px;
 }
 
 .btn.btn-read {
   position: absolute;
   height: 19px!important;
-  left: 35%!important;
+  left: 38%!important;
   top: 500px!important;
 }
 
@@ -343,7 +345,7 @@ display: block;
 .illustration-mobile {
   top: 550px;
   position: absolute;
-  left: 9%;
+  left: 15%;
 }
 h1.second-title {
   width: 288px;
