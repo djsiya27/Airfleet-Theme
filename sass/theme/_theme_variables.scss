@@ -1,0 +1,28 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+$hero-color: linear-gradient(
+  89.39deg,
+  #000024 0.53%,
+  #0f006b 53.96%,
+  #0e0066 99.49%
+);
+$white: #fff;
+$black: #000;
+
+$content-background: linear-gradient(135deg, #00ffff 0%, #6455ff 100%);
+
+$header-text-color: #ff00ff !important;
+$contact-btn: #00ffff;
+$btn-contact-text: #0b0058;
+$second-title: #0e0066;
+$second-description: #4a4a4a;
+$learn-btn: #6455ff;
+$first-icon-bg: linear-gradient(89.39deg, #ff00ff 0.53%, #6455ff 99.49%);
+$second-icon-bg: linear-gradient(89.39deg, #00ffff 0.53%, #6455ff 99.49%);
+$third-icon-bg: linear-gradient(89.39deg, #0e0066 0.53%, #6455ff 99.49%);
+$btn-tell: #6455ff;
+$btn-hmm: #ff00ff;
+$icon-description: #4a4a4a;

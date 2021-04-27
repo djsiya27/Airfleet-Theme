@@ -1,0 +1,368 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+.site-info {
+  display: none;
+}
+nav#main-nav {
+  display: none;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif !important;
+  }
+
+  
+  .header-background {
+    background: $hero-color;
+    position: relative;
+    height: 557px;
+  }
+  
+  .header__text {
+    color: $header-text-color;
+    position: absolute;
+    width: 557px;
+    height: 136px;
+    top: 150px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 68px;
+  }
+  
+  .header__description {
+    position: absolute;
+    width: 378px;
+    height: 38px;
+    top: 300px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white;
+    margin-bottom: 32px;
+  }
+  
+  .btn.btn-contact {
+    position: absolute;
+    top: 380px!important;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background-color: $contact-btn;
+    color: $btn-contact-text;
+  }
+  
+  .btn.btn-read {
+    position: absolute;
+    height: 19px!important;
+    left: 25%!important;
+    top: 380px!important;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: $contact-btn;
+  }
+  
+  .btn.btn-read:hover {
+    color: $contact-btn;
+  }
+  
+  .image {
+    position: relative;
+    height: 489.6700134277344px;
+    width: 733.3200073242188px;
+    left: 50px;
+    top: 33px;
+    border-radius: 0px;
+  }
+  .illustration-desktop {
+    position: absolute;
+    right: 15.32%;
+    top: 1.67%;
+    bottom: 73.52%;
+  }
+
+.illustration-mobile {
+  display: none;
+}
+
+  .second-title {
+    margin-top: 88px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: $second-title;
+  }
+  
+  .image-one {
+    margin-top: 47px;
+    margin-bottom: 47px;
+  }
+  
+  .second-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $second-description;
+  }
+  
+  .btn-learn {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: $learn-btn;
+  }
+  
+  .background-content {
+    background: $content-background;
+  }
+  
+  .third-image {
+    margin-top: 47px;
+    margin-bottom: 47px;
+  }
+  
+  .third-title {
+    margin-top: 94px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    width: 370px;
+    height: 94px;
+    color: $white;
+  }
+  
+  .third-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    width: 465px;
+    height: 84px;
+    color: $white;
+  }
+  
+  .btn-read-more {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: $white;
+  }
+  
+  .first-icon-background {
+    background: $first-icon-bg;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 93px auto 15px;
+    position: relative;
+  }
+  
+  .second-icon-background {
+    background: $second-icon-bg;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 93px auto 15px;
+    position: relative;
+  }
+  
+  .third-icon-background {
+    background: $third-icon-bg;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 93px auto 15px;
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    width: 76.04px;
+    height: 85.45px;
+    left: 60px;
+    top: 60px;
+    transition: transform 0.2s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.5);
+  }
+  
+  h1.icon-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-title {
+    font-family: Roboto Condensed;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $second-title;
+  }
+  
+  .icon-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: $icon-description;
+  }
+  
+  a.btn-what {
+    justify-content: center;
+    display: flex;
+    background: $contact-btn;
+    border-radius: 2px;
+    width: 138px;
+    height: 36px;
+    align-items: center;
+    margin: 0 auto 100px;
+    text-decoration: none;
+    color: $black;
+  }
+  
+  a.btn-tell-more {
+    justify-content: center;
+    display: flex;
+    background: $btn-tell;
+    border-radius: 2px;
+    width: 138px;
+    height: 36px;
+    align-items: center;
+    margin: 0 auto 100px;
+    text-decoration: none;
+    color: $white;
+  }
+  
+  a.btn-hmmm {
+    justify-content: center;
+    display: flex;
+    background: $btn-hmm;
+    border-radius: 2px;
+    width: 138px;
+    height: 36px;
+    align-items: center;
+    margin: 0 auto 100px;
+    text-decoration: none;
+    color: $white;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header-background {
+      background: $hero-color;
+      position: relative;
+      height: 858px!important;
+      width:320px;
+    }
+
+    .header__text {
+      color: $header-text-color;
+      width: 288px;
+      height: 244px;
+      font-family: Roboto Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 52px;
+      line-height: 61px;
+      text-align: center;
+      top:50px;
+    }
+    img.illustration-desktop {
+      display: none;
+  }
+  .col-md-6.image {
+    display: none;
+}
+.header__description  {
+width: 288px;
+height: 69px;
+text-align: center;
+margin-top: 35px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+}
+
+.btn.btn-contact {
+  margin-top: 70px;
+  left:25%;
+  width: 161px;
+}
+
+.btn.btn-read {
+  position: absolute;
+  height: 19px!important;
+  left: 35%!important;
+  top: 500px!important;
+}
+
+.illustration-mobile {
+display: block;
+}
+
+.illustration-mobile {
+  top: 550px;
+  position: absolute;
+  left: 9%;
+}
+h1.second-title {
+  width: 288px;
+}
+p.second-description {
+  width: 288px;
+  margin-bottom: 50px;
+}
+p.third-description {
+  width: 288px;
+  margin-bottom: 50px;
+}
+h1.third-title {
+  width: 288px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+a.btn-learn {
+  color: white;
+}
+}
+  
