@@ -63,7 +63,7 @@ if (!empty($block['align'])) {
             <p class="third-description">
             <?php echo $content['description']; ?>
             </p>
-            <a class="btn-learn" href="<?php echo $content['button']['url']; ?>" target="<?php echo $content['button']['target']; ?>" role="button"><?php echo $content['button']['title']; ?></a>
+            <a class="btn-read-more" href="<?php echo $content['button']['url']; ?>" target="<?php echo $content['button']['target']; ?>" role="button"><?php echo $content['button']['title']; ?></a>
           </div>
         </div>
         <?php endforeach; ?>
